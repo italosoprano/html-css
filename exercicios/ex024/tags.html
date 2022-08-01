@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantics/grouping</title>
+    <link rel="shortcut icon" href="mochi.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 0px;
+        }
+
+        nav{
+            background-color: gray;
+            padding: 3px;
+            box-shadow: 4px 2px 5px 2px rgba(0, 0, 0, 0.432);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: lightgray;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <Main>
+        <section>
+            <Article>
+                <h2>Titulo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab id necessitatibus possimus nihil? Modi animi suscipit eum ad nostrum corrupti vel necessitatibus! Obcaecati, temporibus dolores mollitia sed est natus ad!</p>
+            </Article>
+            <article>
+                <h2>Titulo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dolore esse culpa dicta iste labore aliquid, explicabo voluptates sunt, blanditiis iure veniam ipsa. Impedit odit sed voluptatibus debitis sint numquam!</p>
+                <aside>
+                    Conteudo periferico do artigo
+                </aside>
+            </article>
+        </section>
+        <aside>
+            <h2>Titulo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic inventore perspiciatis commodi temporibus incidunt voluptas minus et accusantium praesentium qui, aut ullam at repellat tenetur sapiente voluptatibus, tempore explicabo nemo.</p>
+        </aside>
+    </Main>
+    <footer>
+        Conteudo de rodapé
+    </footer>
+</body>
+</html>

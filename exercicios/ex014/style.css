@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body {
+    background-color: #09ee8f;
+    text-align: justify;
+}
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(24, 97, 126);
+    font-size: 2.5em;
+}
+h2{
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(33, 136, 161);
+    font-size: 2em;
+}
+p{
+    font: italic bold 1.5em Arial, Helvetica, sans-serif;
+    color: #044040;
+}
+a{
+    font: italic bold 1.0em Arial, Helvetica, sans-serif;
+    color: #044040;
+}
