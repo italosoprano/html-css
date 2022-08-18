@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de tabelas</title>
+    <style>
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .col1 {
+            background-color: lightgray;
+            color: white;
+        }
+
+        .col2 {
+            background-color: turquoise;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de tabelas</h1>
+
+    <table>
+        <colgroup>
+            <col class="col1">
+            <col class="col2" span="3">
+        </colgroup>
+        <caption>cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">idade</th>
+            <th scope="col">profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>Feminino</td>
+            <td>25 anos</td>
+            <td>jornalista</td>
+        </tr>
+        <tr>
+            <td>Tia cotinha</td>
+            <td>Feminino</td>
+            <td>52 anos</td>
+            <td>Domestica</td>
+        </tr>
+        <tr>
+            <td>Seu chiquinho</td>
+            <td>Masculino</td>
+            <td>55 anos</td>
+            <td>Taxista</td>
+        </tr>
+        <tr>
+            <td>Tia cotinha</td>
+            <td>Feminino</td>
+            <td>52 anos</td>
+            <td>Domestica</td>
+        </tr>
+        <tr>
+            <td>Seu chiquinho</td>
+            <td>Masculino</td>
+            <td>55 anos</td>
+            <td>Taxista</td>
+        </tr>
+        <tr>
+            <td>Tia cotinha</td>
+            <td>Feminino</td>
+            <td>52 anos</td>
+            <td>Domestica</td>
+        </tr>
+        <tr>
+            <td>Seu chiquinho</td>
+            <td>Masculino</td>
+            <td>55 anos</td>
+            <td>Taxista</td>
+        </tr>
+    </table>
+</body>
+</html>
